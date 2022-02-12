@@ -1,9 +1,5 @@
 # DPal Wallet ==> A crypto wallet For Doge
 
-View this page in other languages:
-
-* [简体中文](./docs/README_CN.md)
-
 ## Install
 [![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://996.icu)
 
