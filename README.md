@@ -20,6 +20,7 @@ recovery the wallet at any time.
 * For web stroe apps can throgh the injects API into every website's javascript context, so that make doge easily to buy things.
 * [API and demo](./docs/api.md)
 
+## FAQ
 
 ## Contact Us
 
