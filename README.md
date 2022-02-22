@@ -18,7 +18,7 @@ recovery the wallet at any time.
 
 * user using dpal wallet is easy to tip to any one.
 * For web stroe apps can throgh the injects API into every website's javascript context, so that make doge easily to buy things.
-* [API and demo](./docs/api.md)
+* [API and demo](./api.md)
 
 ## FAQ
 
