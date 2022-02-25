@@ -26,5 +26,5 @@ recovery the wallet at any time.
 
 E-mails: mailto:dpalwallet@outlook.com
 
-donate address : DGYMMxhKtMA5wUoSvb2AahrezeymShC6Yf
+donate address : DEGzHPRaiFMhEip819w29iR6tTG8HajvAo
 
