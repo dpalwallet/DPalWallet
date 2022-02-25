@@ -36,3 +36,11 @@ if (await doge.isEnabled()) {
   }
 }
 ```
+
+## timeout
+
+```javascript
+// enable useDoge api have 3 mins timeout
+```
+
+
