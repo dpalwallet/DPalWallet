@@ -9,11 +9,11 @@ __Stay tune:__ Microsoft Edge extension comming soon
 
 A crypto wallet only for Doge Coin
 
-A browser extension based wallet to interact with the Doge blockchain. User can tip Doge and use Doge easily
+A browser extension based wallet to interact with the Doge blockchain. User can tips and use Doge easily
 
-DPal store the phrase in locally and won't record the private key in the server.
+DPal store the private key in locally and won't record the private key in the server.
 
-So your Doge is your Doge, but keep the phrase(12 words) safe in your own way it's necessary. Your can use your own Phrase  
+So your Doge is your Doge, but keep the phrase(12 words)/key safty in your own way it's necessary. Your can use your own Phrase  
 recovery the wallet at any time.
 
 * user using dpal wallet is easy to tip to any one.
