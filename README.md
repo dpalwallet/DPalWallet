@@ -1,7 +1,7 @@
 # DPal Wallet ==> A crypto wallet For Doge
 
 ## Install
-[![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://996.icu)
+[![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://github.com/dpalwallet/DPalWallet)
 
 __Stay tune:__ Microsoft Edge extension comming soon
 
