@@ -1,6 +1,6 @@
 # Privacy Policy
 
-We respect your privacy. DPal doesn’t track or transfer your data to third parties. Also, we wrote this Privacy Policy in plain English, so you don’t need a PhD in law to understand it.
+We respect your privacy. DPal doesn’t track or transfer your data to third parties. Also, we wrote this Privacy Policy in plain English, so you can understant easily.
 
 ## How do we store your phrase and private key
 
