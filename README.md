@@ -23,15 +23,19 @@ recovery the wallet at any time.
 ## FAQ
 
 - Why useable amount not eq balance of address ? 
+
   Because the UTXO of the change is not confirmed or the network delay
   
 - Can the mnemonic be imported into other wallets for recovery?
+
   Yes,You can import into other wallets that support BIP39
 
 - Can the account imported with the private key be recovered through the mnemonic phrase?
-  No
+
+  No,you can't
  
  - Can I find a lost mnemonic?
+
   You can find the mnemonic in the show mnemonic page, But if you clear the computer data, that means you can't find it back.
 
 ## Contact Us
