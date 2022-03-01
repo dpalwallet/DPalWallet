@@ -16,7 +16,7 @@ Be careful to allow web apps to interact to wallet,the web apps may store addres
 
 You may find it suspicious that our extension request permission:
 
-- scripting: Those scripts help to tip easily. It’s the permission that enables us to inject scripts to all pages,hose scripts help to tip easily.
+- content_scripts: Those scripts help to tip easily. It’s the permission that enables us to inject scripts to all pages,hose scripts help to tip easily.
 - storage: We use this permission for stroing the local data.
 
 ## Email Us
