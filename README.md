@@ -36,7 +36,7 @@ recovery the wallet at any time.
  
  - Can I find a lost mnemonic?
 
-  You can find the mnemonic in the show mnemonic page, But if you clear the computer data, that means you can't find it back.
+  You can find the mnemonic in the show mnemonic page, But if you clear the computer data and no backup elsewhere, that means you can't find it back.
 
 ## Contact Us
 
