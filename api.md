@@ -43,4 +43,12 @@ if (await doge.isEnabled()) {
 // enable useDoge api have 3 mins timeout
 ```
 
+## event
+
+```javascript
+doge.on("networkchange", async (curNetwork) => {
+  const data = await doge.userAddress()
+  console.log(curNetwork, data.userAddress)
+})
+```
 
