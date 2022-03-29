@@ -9,6 +9,8 @@ A crypto wallet only for Doge Coin
 
 A browser extension based wallet to interact with the Doge blockchain. User can tips and use Doge easily
 
+Or DEV a "web3" app?
+
 DPal store the private key in locally and won't record the private key in the server.
 
 So your Doge is your Doge, but keep the phrase(12 words)/key safty in your own way it's necessary. You can use your own Phrase  
