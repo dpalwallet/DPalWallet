@@ -38,6 +38,10 @@ recovery the wallet at any time.
 
   You can find the mnemonic in the show mnemonic page, But if you clear the computer data and no backup elsewhere, that means you can't find it back.
 
+ - I have a large amount of DOGE, it is recommended to transfer to a cold wallet?
+   
+   yES,Although this wallet can store private keys, it is recommended to only store small amounts of DOGE for tips and spend 
+   
 ## Contact Us
 
 E-mails: mailto:dpalwallet@outlook.com
