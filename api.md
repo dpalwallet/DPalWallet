@@ -1,7 +1,7 @@
 
 # Api & demo
 
-## use api
+## use api in typescript
 
 ```javascript
 const doge = window?.DogeApi;
