@@ -30,7 +30,7 @@ if (await doge.isEnabled()) {
   const rs = await doge.useDoge(cost, toAddress, 'Buy Things');
   if (rs?.txid) {
     // successed
-    // you can track the transaction is confirmed by txid
+    // you can track the transaction is confirmed by txid in doge chain
   } else {
     // failed
   }
