@@ -4,7 +4,6 @@
 [![Demo](./DPal Wallet ui.gif)]
 
 ## Install
-[![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)## Install
 [![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
 
 ## Description
