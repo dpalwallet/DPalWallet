@@ -22,8 +22,8 @@ DPal store the private key in locally and won't record the private key in the se
 So your Doge is your Doge, but keep the phrase(12 words)/key safty in your own way it's necessary. You can use your own Phrase  
 recovery the wallet at any time.
 
-* user using dpal wallet is easy to tip to any one.
-* For web stroe apps can throgh the injects API into every website's javascript context, so that make doge easily to buy things.
+* dpal wallet is easy to spend doge
+* FAny website can intract with doge block chain easily and Directly widthout mid services throgh the injected API.
 * [API and demo](./api.md)
 
 ## FAQ
