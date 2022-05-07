@@ -23,7 +23,7 @@ So your Doge is your Doge, but keep the phrase(12 words)/key safty in your own w
 recovery the wallet at any time.
 
 * dpal wallet is easy to spend doge
-* FAny website can intract with doge block chain easily and Directly widthout mid services throgh the injected API.
+* Any website can intract with doge block chain easily and Directly widthout mid services throgh the injected API.
 * [API and demo](./api.md)
 
 ## FAQ
