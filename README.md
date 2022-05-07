@@ -4,7 +4,7 @@
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/3619481f94832cb6ecf968bf85d6256847a97f8c/DPal%20Wallet%20ui.gif)
 
 ## Intract Doge net DEMO 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/Fm1oTfiJZ58)
+[![Watch the video](https://img.youtube.com/vi/Fm1oTfiJZ58/hqdefault.jpg)](https://youtu.be/Fm1oTfiJZ58)
 
 ## Install
 [![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
