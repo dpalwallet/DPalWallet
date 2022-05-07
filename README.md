@@ -1,7 +1,7 @@
 # DPal Wallet ==> A wallet only For Doge
 
 ## DEMO
-![alt Demo](./DPal Wallet ui.gif "Wallet ui")
+![Demo](./DPal Wallet ui.gif)
 
 ## Install
 [![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
