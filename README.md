@@ -1,4 +1,4 @@
-# DPal Wallet ==> A wallet only For Doge
+# DPal Wallet ==> "A browser extension based wallet to interact with DogeCoin directly. Make it easier to tip and spend DOGE in secure way."
 
 ## UI DEMO 
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/3619481f94832cb6ecf968bf85d6256847a97f8c/DPal%20Wallet%20ui.gif)
