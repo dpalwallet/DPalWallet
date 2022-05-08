@@ -7,7 +7,7 @@
 ## web apps intract with DogeCoin directly  DEMO 
 [![Watch the video](https://img.youtube.com/vi/Fm1oTfiJZ58/hqdefault.jpg)](https://youtu.be/Fm1oTfiJZ58)
 
-## Install
+## Install (now beta)
 [![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
 
 ## Description
