@@ -16,7 +16,7 @@ A crypto wallet only for Doge Coin.
 
 A browser extension based wallet to interact with DogeCoin directly. Make it easier to tip and spend DOGE in secure way.
 
-It support DEV a "web3" app.
+It support DEV a "web3" app for DogeCoin
 
 DPal keep the private key locally and won't record the private key in the server.
 
