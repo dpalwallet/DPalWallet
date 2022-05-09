@@ -4,7 +4,7 @@
 ## UI DEMO 
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/3619481f94832cb6ecf968bf85d6256847a97f8c/DPal%20Wallet%20ui.gif)
 
-## web apps intract with DogeCoin directly  DEMO 
+## web apps intract with DogeCoin directly
 [![Watch the video](https://img.youtube.com/vi/Fm1oTfiJZ58/hqdefault.jpg)](https://youtu.be/Fm1oTfiJZ58)
 
 ## Install (now beta)
