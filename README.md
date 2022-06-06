@@ -32,7 +32,12 @@ recovery the wallet at any time.
 - Why useable amount not eq balance of address ? 
 
   Because the UTXO of the change is not confirmed or the network delay
-  
+
+- Why notice error when i send ? 
+
+  Network error or used unconfirmed utxo (it have some limit at Doge node when use unconfirmed utxo), and Because of wallet is 
+  chrome based we dont tend to make a tx queue.
+
 - Can the mnemonic be imported into other wallets for recovery?
 
   Yes,You can import into other wallets that support BIP39
@@ -41,13 +46,13 @@ recovery the wallet at any time.
 
   No,you can't
  
- - Can I find a lost mnemonic?
+- Can I find a lost mnemonic?
 
-  You can find the mnemonic in the show mnemonic page, But if you clear the computer data and no backup elsewhere, that means you can't find it back.
+  You will find the mnemonic in the show mnemonic page, But if you clear the computer data and no backup elsewhere, that means you can't find it back.
 
- - I have a large amount of DOGE, it is recommended to transfer to a cold wallet?
+- I have a large amount of DOGE, it is recommended to transfer to a cold wallet?
    
-   yES,Although this wallet can store private keys, it is recommended to only store small amounts of DOGE for tips and spend 
+  yES,Although this wallet can store private keys, it is recommended to only store amounts of DOGE for tips and spend 
    
 ## Contact Us
 
