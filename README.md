@@ -36,7 +36,7 @@ recovery the wallet at any time.
 - Why notice error when i send ? 
 
   Network error or used unconfirmed utxo (it have some limit at Doge node when use unconfirmed utxo), and Because of wallet is 
-  chrome based we dont tend to make a tx queue.
+  chrome based we dont tend to make a tx sender queue (maybe release later if complain too many).
 
 - Can the mnemonic be imported into other wallets for recovery?
 
