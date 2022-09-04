@@ -43,7 +43,7 @@ if (await doge.isEnabled()) {
 // enable useDoge api have 3 mins timeout
 ```
 
-## event
+## event (not used)
 
 ```javascript
 doge.on("networkchange", async (curNetwork) => {
