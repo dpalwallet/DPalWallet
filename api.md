@@ -23,7 +23,7 @@ if (doge && (await doge.isEnabled())) {
 }
 ```
 
-## request to pay
+## request to pay(BETA)
 
 ```javascript
 if (await doge.isEnabled()) {
