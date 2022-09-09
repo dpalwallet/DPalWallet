@@ -10,7 +10,7 @@ const doge = window?.DogeApi;
 ## enable to interact
 
 ```javascript
-const { status } = (await doge.enable()) || {};
+const { status } = await doge.enable();
 if (result?.status === 'success') {
   const { userAddress } = await doge.userAddress();
   const { network } = await doge.network();
