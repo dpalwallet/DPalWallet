@@ -31,8 +31,8 @@ if (await doge.isEnabled()) {
   if (rs?.txid) {
     // successed
     // you can track the transaction is confirmed by txid in doge chain
-  } else {
-    // failed
+    // map the transaction id with your webapps orderid.
+    // you don't need to build a complex address allocator for your system.
   }
 }
 ```
