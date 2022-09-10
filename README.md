@@ -1,4 +1,4 @@
-# DPal Wallet
+# DPal Wallet  [中文](./README_ZH.MD)
 ### A browser extension based wallet to interact with DogeCoin directly. Make it easier to tip and spend DOGE in secure way.
 
 ## UI DEMO 
