@@ -2,14 +2,7 @@
 # DPal Wallet
 ### 一款款，狗狗币 web3 插件钱包
 
-## 界面演示
-![Demo](https://github.com/dpalwallet/DPalWallet/blob/3619481f94832cb6ecf968bf85d6256847a97f8c/DPal%20Wallet%20ui.gif)
 
-## web apps intract with DogeCoin directly
-[![Watch the video](https://img.youtube.com/vi/Fm1oTfiJZ58/hqdefault.jpg)](https://youtu.be/Fm1oTfiJZ58)
-
-## 安装链接 (now beta)
-[![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
 
 ## 介绍
 
@@ -25,6 +18,15 @@ DPal 将私钥加密并本地保存，所以你的私钥属于你，不属于任
 * DPal 让你的使用更简单、方便
 * 任何开发者可以基于此研发狗狗币应用，不再需要复杂的地址分发器。
 * [API and demo](./api.md)
+
+## 界面演示
+![Demo](https://github.com/dpalwallet/DPalWallet/blob/3619481f94832cb6ecf968bf85d6256847a97f8c/DPal%20Wallet%20ui.gif)
+
+## web apps intract with DogeCoin directly
+[![Watch the video](https://img.youtube.com/vi/Fm1oTfiJZ58/hqdefault.jpg)](https://youtu.be/Fm1oTfiJZ58)
+
+## 安装链接 (now beta)
+[![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
 
 ## FAQ
 
