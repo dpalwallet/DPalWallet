@@ -48,3 +48,4 @@ E-mails: mailto:dpalwallet@outlook.com
 
 打赏地址 : DEGzHPRaiFMhEip819w29iR6tTG8HajvAo
 
+telegram : https://t.me/dpalwallet
