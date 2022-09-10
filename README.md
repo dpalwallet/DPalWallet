@@ -28,6 +28,9 @@ recovery the wallet at any time.
 * [API and demo](./api.md)
 
 ## FAQ
+- about dust limit
+
+  in order to keep doge net stable,our wallet set dust limit was 0.05 doge , it means if you changed utxo value below 0.05 doge ,it will offer to the miners.
 
 - Can the mnemonic be imported into other wallets for recovery?
 
