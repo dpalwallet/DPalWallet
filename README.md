@@ -46,3 +46,5 @@ E-mails: mailto:dpalwallet@outlook.com
 
 donate address : DEGzHPRaiFMhEip819w29iR6tTG8HajvAo
 
+telegram : https://t.me/dpalwallet
+
