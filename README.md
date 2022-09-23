@@ -36,6 +36,10 @@ recovery the wallet at any time.
 - Can the mnemonic be imported into other wallets for recovery?
 
   Yes,You can import into other wallets that support BIP39
+  
+ - Is my mnemonic/seed secured?
+
+  Yes, Mnemonics/seeds are securely encrypted and stored locally, your keys your doge.
 
 ## Contact Us
 
