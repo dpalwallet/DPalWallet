@@ -28,6 +28,7 @@ recovery the wallet at any time.
 [![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
 
 ## FAQ
+
 - about dust limit
 
   in order to keep doge net stable,our wallet set dust limit was 0.05 doge , it means if you changed utxo value below 0.05 doge ,it will offer to the miners.
@@ -36,10 +37,6 @@ recovery the wallet at any time.
 
   Yes,You can import into other wallets that support BIP39
 
-- Can I find a lost mnemonic?
-
-  You will find the mnemonic in the show mnemonic page, But if you clear the computer data and no backup elsewhere, that means you can't find it back.
-   
 ## Contact Us
 
 E-mails: mailto:dpalwallet@outlook.com
