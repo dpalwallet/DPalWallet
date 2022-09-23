@@ -13,26 +13,41 @@ const doge = window?.DogeApi;
 const { status } = await doge.enable();
 if (result?.status === 'success') {
   const { userAddress } = await doge.userAddress();
-  const { network } = await doge.network();
+  // const { network } = await doge.network();
 }
 
 // or check isEnabled
 if (doge && (await doge.isEnabled())) {
   const { userAddress } = await doge.userAddress();
-  const { network } = await doge.network();
+  // const { network } = await doge.network();
 }
 ```
 
-## request to pay(Test)
+## request to pay
 
 ```javascript
 if (await doge.isEnabled()) {
-  const rs = await doge.useDoge(cost, toAddress, 'Buy Things');
+  const rs = await doge.useDoge(cost, toAddress, 'Buy Things Info');
   if (rs?.txid) {
     // successed
     // you can track the transaction is confirmed by txid in doge chain
     // map the transaction id with your webapps orderid.
-    // you don't need to build a complex address allocator for your system.
+    // you don't need to build a complex address allocator for your system anymore.
+  }
+}
+```
+
+## request to sign message(^v1.0.19)
+
+```javascript
+if (await doge.isEnabled()) {
+  const rs = await doge.sign();
+  if (rs?.message && rs.sig) {
+    // successed
+    // you can validate sig and message by this
+    // then check address by ecdsa 
+    // through this webapp does't need kyc anymore
+    // doge address represent user
   }
 }
 ```
@@ -42,13 +57,3 @@ if (await doge.isEnabled()) {
 ```javascript
 // enable useDoge api have 3 mins timeout
 ```
-
-## event (not used)
-
-```javascript
-doge.on("networkchange", async (curNetwork) => {
-  const data = await doge.userAddress()
-  console.log(curNetwork, data.userAddress)
-})
-```
-
