@@ -234,7 +234,7 @@ if (await doge.isEnabled()) {
 }
 ```
 
-request to pay
+request to pay 
 
 ```javascript
 if (await doge.isEnabled()) {
