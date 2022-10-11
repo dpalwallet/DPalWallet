@@ -7,16 +7,77 @@
 
 #### 1.利用 ECDSA 签名验证技术
 
-原理如下图所示：在铸造、转移、销毁等交互函数中，传入该地址对应的私钥签名（签名时间戳消息），并在铸造函数中记录恢复的以太坊地址（中间验证地址），之后每次更改操作都通过恢复以太坊地址（中间验证地址）与第一次记录的验证地址进行比对，即可验证该签名，这样可以保证 tokenId 的所属权归该狗狗币地址所有，并且他人无法更改。
+原理如下: 在铸造、转移、销毁等交互函数中，传入该地址对应的私钥签名（签名时间戳消息），并在铸造函数中记录恢复的以太坊地址（中间验证地址），之后每次更改操作都通过恢复以太坊地址（中间验证地址）与第一次记录的验证地址进行比对，即可验证该签名，这样可以保证 tokenId 的所属权归该狗狗币地址所有，并且他人无法更改。
+
+```solidity
+
+    // Mapping from token ID to owner doge address
+    mapping(uint256 => string) public _owners;
+    
+    // Mapping from owner doge address to validate address
+    mapping(string => address) public validator;
+
+    // mint a nft
+    function _mint(
+        string memory dogeAddress,
+        string memory timestamp_msg,
+        uint256 tokenId, 
+        bytes32 r,
+        bytes32 s,
+        uint8 i
+    ) public {
+        
+        require(!_exists(tokenId), "ERC721: token already minted");
+
+        uint256 msgTime;
+        bool err;
+        (msgTime,err) = strToUint(timestamp_msg);
+
+        require(err, "ERC721: string convert to uint246 error");
+        require(now()*1000 - msgTime <= 5*60*1000, "ERC721: sign allowed in 5min");
+
+        address validatorAddress = recoverEcdsa(strTosha256(timestamp_msg),i,r,s); // compute validate eth address
+
+        _owners[tokenId] = dogeAddress; // doge coin address
+        validator[dogeAddress] = validatorAddress;
+        
+    }
+    
+    // transfer a nft
+    function _transfer(
+        uint256 tokenId,
+        string memory from, // dogeaddress 
+        string memory to, // doge address
+        string memory timestamp_msg,
+        uint8 i,
+        bytes32 r,
+        bytes32 s
+    ) public {
+
+        uint256 msgTime;
+        bool err;
+        (msgTime,err) = strToUint(timestamp_msg);
+
+        require(err, "ERC721: string convert to uint246 error");
+        require(now()*1000 - msgTime <= 5*60*1000, "ERC721: sign allowed in 5min");
+
+        require(validator[from] != address(0));
+        
+        address adr0 = recoverEcdsa(strTosha256(timestamp_msg),i,r,s);
+        require(adr0 == validator[from]);
+
+        _owners[tokenId] = to;
+        validator[to] = adr0;
+    }
+    
+```
 
 #### 2.代理以太坊账户 等价/定价 支付 gas 费用
 
-以 web app 为例，用户每次操作传入签名数据后，服务端先预先估算所需 gas 费用，换算成 Doge 数量后，由用户支付并获取交易Hash，交易确认后，由服务端代理以太坊账户执行交易。如果交易出错，则将损耗的费用由用户或者服务端自己承担，实际上由于 doge 的 网络费用极低，这样频繁的退还交易操作，不会影响用户体验。一下为简单的 B/S 架构图。
+以 web app 为例，用户每次操作传入签名数据后，服务端先预先估算所需 gas 费用，换算成 Doge 数量后，由用户支付并获取交易Hash，交易确认后，由服务端代理以太坊账户执行交易。如果交易出错，则将损耗的费用由用户或者服务端自己承担，实际上由于 doge 的 网络费用极低，这样频繁的退还交易操作，不会影响用户体验。以下为简单的 B/S 架构图。
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/image.png)
 
 #### 3.代码及实现示例（简单的 NFT 代码）
-
-
 
 3.1 智能合约代码
 
@@ -190,5 +251,4 @@ if (await doge.isEnabled()) {
 
 #### 4.遗留问题
 
-ecdsa 签名的 recoverid 允许 0,1,2,3 四个值，大概率会是0，1 这两个值是符合 智能合约中的 ecrecover 函数的，小概率可能会出现 3，4 的情况（我并没有遇到这种情况），如果你想确保
-恢复的中间验证地址与第一次铸造时一致，可以采用预言机的办法在智能合约之外部署查询验证器。
+ecdsa 签名的 recoverid 允许 0,1,2,3 四个值，大概率会是0，1 这两个值是符合 智能合约中的 ecrecover 函数的，小概率可能会出现 3，4 的情况（我并没有遇到这种情况），如果你避免出现3，4 以至于会令用户重新操作的情况，可以采用预言机的办法在智能合约之外部署签名查询验证器。
