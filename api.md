@@ -43,11 +43,8 @@ if (await doge.isEnabled()) {
 if (await doge.isEnabled()) {
   const rs = await doge.sign();
   if (rs?.message && rs.sig) {
-    // successed
-    // you can validate sig and message by this
-    // then check address by ecdsa 
-    // through this webapp does't need kyc anymore
-    // doge address represent user
+    // rs.sig example : H5DYFib9KhCRnOpb63/qNTROn6mrvXPuNw5aoogwYNaEBF2QP4uKo5CDPbJmZNiO7HBJIETaLLtSPpU9dVtkSzE=
+    // you can use bitcore-lib-doge recover this signature and get r,s,v
   }
 }
 ```
