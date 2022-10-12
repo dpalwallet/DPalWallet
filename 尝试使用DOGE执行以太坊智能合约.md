@@ -79,7 +79,39 @@
 
 #### 3.代码及实现示例（简单的 NFT 代码）
 
-3.1 智能合约代码
+3.1 如果你打算部署web应用与智能合约交互可以考虑使用 狗狗币插件钱包 (DPal)(https://dpalwallet.github.io/) 来完成签名、支付过程
+
+request to sign message(^v1.0.19)
+
+```javascript
+
+const doge = window?.DogeApi;
+
+if (await doge.isEnabled()) {
+  const rs = await doge.sign();
+  if (rs?.message && rs.sig) {
+    // rs.sig example : H5DYFib9KhCRnOpb63/qNTROn6mrvXPuNw5aoogwYNaEBF2QP4uKo5CDPbJmZNiO7HBJIETaLLtSPpU9dVtkSzE=
+    // you can use npm install bitcore-lib-doge recover this signature and get r,s,v
+  }
+}
+```
+
+request to pay 
+
+```javascript
+if (await doge.isEnabled()) {
+  const rs = await doge.useDoge(cost, toAddress, 'Pay gas fees');
+  if (rs?.txid) {
+    // successed
+    // you can track the transaction is confirmed by txid in doge chain
+    // map the transaction id with your webapps orderid.
+    // you don't need to build a complex address allocator for your system anymore.
+  }
+}
+```
+
+
+3.2 智能合约代码
 
 ```solidity
 
@@ -215,38 +247,6 @@ contract DogeNFT {
 
 }
 
-```
-
-3.2 如果你打算部署web应用与智能合约交互可以考虑使用 狗狗币插件钱包 ![(DPal)](https://dpalwallet.github.io/) 来完成签名、支付过程
-
-request to sign message(^v1.0.19)
-
-```javascript
-
-const doge = window?.DogeApi;
-
-if (await doge.isEnabled()) {
-  const rs = await doge.sign();
-  if (rs?.message && rs.sig) {
-    // rs.sig example : H5DYFib9KhCRnOpb63/qNTROn6mrvXPuNw5aoogwYNaEBF2QP4uKo5CDPbJmZNiO7HBJIETaLLtSPpU9dVtkSzE=
-    // you can use npm install bitcore-lib-doge recover this signature and get r,s,v
-  }
-}
-```
-
-request to pay 
-
-```javascript
-if (await doge.isEnabled()) {
-  const rs = await doge.useDoge(cost, toAddress, 'Pay gas fees');
-  if (rs?.txid) {
-    // successed
-    // you can track the transaction is confirmed by txid in doge chain
-    // map the transaction id with your webapps orderid.
-    // you don't need to build a complex address allocator for your system anymore.
-  }
-}
-```
 
 
 #### 4.遗留问题
