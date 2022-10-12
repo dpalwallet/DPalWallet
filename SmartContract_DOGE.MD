@@ -219,7 +219,7 @@ contract DogeNFT {
 
 ```
 
-3.2 Interacting with the DPal Extension wallet
+3.2 Interacting with the DPal Extension wallet (https://dpalwallet.github.io/)
 
 request to sign message(^v1.0.19)
 
