@@ -217,7 +217,7 @@ contract DogeNFT {
 
 ```
 
-3.2 与 DPal 插件钱包交互 
+3.2 如果你打算部署web应用与智能合约交互可以考虑使用 狗狗币插件钱包 ![(DPal)](https://dpalwallet.github.io/) 来完成签名、支付过程
 
 request to sign message(^v1.0.19)
 
