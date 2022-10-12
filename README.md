@@ -18,6 +18,7 @@ recovery the wallet at any time.
 * Any website can intract with doge block chain easily and Directly widthout mid services throgh the injected API.
 * [API and demo](./api.md)
 
+## [Use dogecoin drive smart contract](./Trying to execute Ethereum smart contracts with DOGE.MD)
 ## UI DEMO 
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/3619481f94832cb6ecf968bf85d6256847a97f8c/DPal%20Wallet%20ui.gif)
 
