@@ -19,6 +19,9 @@ DPal 将私钥加密并本地保存，所以你的私钥属于你，不属于任
 * 任何开发者可以基于此研发狗狗币应用，不再需要复杂的地址分发器。
 * [API and demo](./api.md)
 
+
+## [使用狗狗币驱动智能合约](./SmartContract_DOGE.MD)
+
 ## 界面演示
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/3619481f94832cb6ecf968bf85d6256847a97f8c/DPal%20Wallet%20ui.gif)
 
