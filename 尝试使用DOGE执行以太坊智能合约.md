@@ -11,13 +11,13 @@
 
 ```solidity
 
-    // Mapping from token ID to owner doge address
+    // 映射狗狗币地址
     mapping(uint256 => string) public _owners;
     
-    // Mapping from owner doge address to validate address
+    // 中间验证地址 通过 私钥签名恢复
     mapping(string => address) public validator;
 
-    // mint a nft
+    // 铸造 NFT
     function _mint(
         string memory dogeAddress,
         string memory timestamp_msg,
@@ -43,7 +43,7 @@
         
     }
     
-    // transfer a nft
+    // 转移资产
     function _transfer(
         uint256 tokenId,
         string memory from, // dogeaddress 
