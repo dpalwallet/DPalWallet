@@ -15,7 +15,8 @@ In interactive functions such as mint, transfer, burn, etc.，Take Dogecoin addr
     // Mapping from token ID to owner doge address
     mapping(uint256 => string) public _owners;
     
-    // Mapping from owner doge address to validate address
+    // Mapping from doge address of owner 
+    // to eth validator address(recover by sig)            
     mapping(string => address) public validator;
 
     // mint a nft
@@ -95,6 +96,8 @@ contract DogeNFT {
 
     // Mapping from token ID to owner doge address
     mapping(uint256 => string) public _owners;
+
+    // Mapping from doge address of owner to eth validator address(recover by sig)
     mapping(string => address) public validator;
 
     function now() public view returns (uint256){
