@@ -2,11 +2,11 @@
 
 ### Trying to execute Ethereum smart contracts with DOGE
 
-#### Aims to explore how to use ECDSA signature verification technology (or oracle)，Pay gas equivalently using DOGE in a public smart contract infrastructure (e.g. Ethereum) Execute smart contracts, And record virtual assets with Dogecoin addresses 。
+#### Aims to explore how to use ECDSA signature verification technology (or oracle)，Pay gas equivalently using DOGE in a public smart contract infrastructure (e.g. Ethereum) Execute smart contracts, And record virtual assets with Dogecoin addresses.
 
-Take common NFTs as an example, In NFT smart contracts，The unique tokenId of the virtual asset is mapped one-to-one or one-to-many with an Ethereum address to ensure ownership，In fact we might be able to map a Dogecoin address with a tokenId,theoretically possible，The problem is how to ensure that only the owner of the Dogecoin address can operate the corresponding virtual asset, And how to pay for gas with Dogecoin，For this I have considered solutions to these two problems.
+For example, In NFT smart contracts，The unique tokenId of the virtual asset is mapped one-to-one or one-to-many with an Ethereum address to ensure ownership，In fact we might be able to map a Dogecoin address with a tokenId,it's theoretically possible，The problem is how to ensure that only the owner of the Dogecoin address can operate the corresponding virtual asset, and how to pay gas with Dogecoin，for this I have came up solutions to these two problems.
 
-#### 1.Utilize ECDSA Signature Verification Technology
+#### 1.ECDSA Signature Verification Technology
 
 In interactive functions such as mint, transfer, burn, etc.，Take Dogecoin address and corresponding private key signature (signature timestamp message) as function parameters，and record the recovered Ethereum address in the minting function（mid validator address），then every change operation after that is done by restoring the Ethereum address（mid validator addres）Compare with the verification address recorded for the first time，This ensures that the ownership of the tokenId belongs to the Dogecoin address，and cannot be changed by anyone other than the owner of Dogecoin。In addition to directly verifying signatures in smart contracts，The signature can also be verified by an oracle，This avoids the complexity of smart contracts（No need to record mid validator address）。
 
@@ -75,7 +75,7 @@ In interactive functions such as mint, transfer, burn, etc.，Take Dogecoin addr
 
 #### 2.Proxy Ethereum Account Equivalent/Pricing Pay Gas Fee
 
-Take web app as an example，After the user enters the signature data for each operation，The server first estimates the required gas cost in advance，After converting to the number of Doge，Pay by user and get transaction Hash，After the transaction is confirmed，The transaction is executed by the server on behalf of the Ethereum account。If there is an error in the transaction, the cost of the loss will be borne by the user or the server itself.The following is a simple B/S architecture diagram.
+Take web app as an example，After the user enters the signature data for each operation，The server first estimates the required gas cost in advance，After converting to the number of Doge，Pay by user and get transaction Hash，After the transaction is confirmed，The transaction is executed by the server on behalf of the Ethereum account.If there is an error in the transaction, the cost of the loss will be borne by the user or the server itself.The following is a simple B/S architecture diagram.
 
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/image.png)
 
