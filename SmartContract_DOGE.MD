@@ -2,7 +2,7 @@
 
 ### Trying to execute Ethereum smart contracts with DOGE
 
-#### Aims to explore how to use ECDSA signature verification technology (or oracle)，Pay gas equivalently using DOGE in a public smart contract infrastructure (e.g. Ethereum) Execute smart contracts, And record virtual assets with Dogecoin addresses.
+#### Aims to explore how to use ECDSA signature verification technology (or oracle)，Pay gas equivalently using DOGE in a public smart contract infrastructure (e.g. Ethereum) And record virtual assets with Dogecoin addresses.
 
 For example, In NFT smart contracts，The unique tokenId of the virtual asset is mapped one-to-one or one-to-many with an Ethereum address to ensure ownership，In fact we might be able to map a Dogecoin address with a tokenId,it's theoretically possible，The problem is how to ensure that only the owner of the Dogecoin address can operate the corresponding virtual asset, and how to pay gas with Dogecoin，for this I have came up solutions to these two problems.
 
