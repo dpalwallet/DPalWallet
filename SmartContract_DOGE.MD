@@ -224,6 +224,8 @@ contract DogeNFT {
 
 3.2 Interacting with the DPal Extension wallet (https://dpalwallet.github.io/)
 
+If you plan to deploy web applications to interact with smart contracts, consider using Dogecoin Chrome Extension Wallet (DPal)(https://dpalwallet.github.io/) to complete the signing and payment process
+
 request to sign message(^v1.0.19)
 
 ```javascript
