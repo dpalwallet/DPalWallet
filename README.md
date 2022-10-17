@@ -25,7 +25,7 @@ recovery the wallet at any time.
 ## web apps intract with DogeCoin directly
 [![Watch the video](https://img.youtube.com/vi/Fm1oTfiJZ58/hqdefault.jpg)](https://youtu.be/Fm1oTfiJZ58)
 
-## Install (now beta)
+## Install
 [![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
 
 ## FAQ
