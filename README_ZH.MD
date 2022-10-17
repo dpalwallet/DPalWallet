@@ -23,12 +23,12 @@ DPal 将私钥加密并本地保存，所以你的私钥属于你，不属于任
 ## [使用狗狗币驱动智能合约](./尝试使用DOGE执行以太坊智能合约.md)
 
 ## 界面演示
-![Demo](https://github.com/dpalwallet/DPalWallet/blob/3619481f94832cb6ecf968bf85d6256847a97f8c/DPal%20Wallet%20ui.gif)
+![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/Untitled_%20Oct%2017%2C%202022%2012_46%20PM.gif)
 
-## web apps intract with DogeCoin directly
-[![Watch the video](https://img.youtube.com/vi/Fm1oTfiJZ58/hqdefault.jpg)](https://youtu.be/Fm1oTfiJZ58)
+## web应用交互演示
+![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/Untitled_%20Oct%2017%2C%202022%2012_54%20PM.gif)
 
-## 安装链接 (now beta)
+## 安装链接
 [![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
 
 ## FAQ
