@@ -54,6 +54,6 @@ https://github.com/dpalwallet/DPalWallet/blob/main/SmartContract_DOGE.MD
 * [API and demo](./api.md)
 
 ### 路线图
-* 2023 Q1 构建基于钱包的 web 应用 : 以 DOGE 为唯一代币的 自组织 DAO
+* 2023 Q1 构建基于钱包的 web3 应用 : 以 DOGE 为唯一代币的 自组织 DAO / 跨链SWAP / NFT等
 * 2023 Q1-Q2 手机版本（以支付宝和PayPal 为蓝本）
 * 基于 DOGE 的金融服务
