@@ -23,7 +23,7 @@ recovery the wallet at any time.
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/main_ui.gif)
 
 ## web apps intract with DogeCoin directly
-![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/Untitled_%20Oct%2017%2C%202022%2012_54%20PM.gif)
+![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/login.gif)
 
 ## Install
 [![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
