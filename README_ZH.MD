@@ -23,7 +23,7 @@ DPal 将私钥加密并本地保存，所以你的私钥属于你，不属于任
 ## [使用狗狗币驱动智能合约](./尝试使用DOGE执行以太坊智能合约.md)
 
 ## 界面演示
-![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/Untitled_%20Oct%2017%2C%202022%2012_46%20PM.gif)
+![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/main_ui.gif)
 
 ## web应用交互演示
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/Untitled_%20Oct%2017%2C%202022%2012_54%20PM.gif)
