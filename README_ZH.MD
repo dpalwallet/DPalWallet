@@ -26,7 +26,7 @@ DPal 将私钥加密并本地保存，所以你的私钥属于你，不属于任
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/main_ui.gif)
 
 ## web应用交互演示
-![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/Untitled_%20Oct%2017%2C%202022%2012_54%20PM.gif)
+![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/login.gif)
 
 ## 安装链接
 [![Chrome Extension](https://www.google.com/chrome/static/images/chrome-logo.svg)](https://dpalwallet.github.io)
