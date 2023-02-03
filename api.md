@@ -31,8 +31,9 @@ if (await doge.isEnabled()) {
   if (rs?.txid) {
     // successed
     // you can track the transaction is confirmed by txid in doge chain
-    // map the transaction id with your webapps orderid.
-    // you don't need to build a complex address allocator for your system anymore.
+    // for example use chain.so or orther doge api serveices
+    // curl "https://chain.so/api/v3/transaction/DOGE/597bafa25fcbb081467bdeb030a42bf441dbfcc054bdcfad31a829d7db5d931f" -H "API-KEY: {{api_key}}"
+    // https://chain.so/api/ 
   }
 }
 ```
