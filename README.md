@@ -20,7 +20,7 @@ recovery the wallet at any time.
 
 ## [Use dogecoin drive smart contract](./SmartContract_DOGE.MD)
 ## UI DEMO 
-![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/Untitled_%20Oct%2017%2C%202022%2012_46%20PM.gif)
+![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/main_ui.gif)
 
 ## web apps intract with DogeCoin directly
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/Untitled_%20Oct%2017%2C%202022%2012_54%20PM.gif)
