@@ -8,7 +8,7 @@ Your private keys belongs to you only, the generated phrases and private keys we
 
 ## What information do we collect
 
-We will never store/transfer private key or phrase in any way. We don't track user data. We use the proxy server to relay your transactions that signed and it won't track your coin address,balacnce,ip.
+We will never store/transfer private key or phrase in any way. We don't track user data. We use the proxy server to relay your transactions that signed and it won't track your coin balacnce,ip.
 
 Be careful to allow web apps to interact to wallet,the web apps may store address and balance os your wallet, and don't worry is only public address not your key and privacy info.
 
