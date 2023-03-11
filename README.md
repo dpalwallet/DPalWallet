@@ -3,7 +3,7 @@
 
 ## Description
 
-A Doge Coin wallet for web69.
+A Doge Coin wallet for web3 & Self-Custodial Dogcoin wallet
 
 A browser extension based wallet to interact with DogeCoin directly. Make it easier to tip and spend DOGE in secure way.
 
