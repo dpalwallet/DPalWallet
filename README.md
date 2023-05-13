@@ -50,3 +50,6 @@ donate address : DEGzHPRaiFMhEip819w29iR6tTG8HajvAo
 
 telegram : https://t.me/dpalwallet
 
+bug temporary solution solution :
+https://github.com/dpalwallet/DoginalsPlan/blob/main/faq.md
+
