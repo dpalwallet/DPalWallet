@@ -52,3 +52,5 @@ E-mails: mailto:dpalwallet@outlook.com
 打赏地址 : DEGzHPRaiFMhEip819w29iR6tTG8HajvAo
 
 telegram : https://t.me/dpalwallet
+
+bug的临时解决方案 : https://github.com/dpalwallet/DoginalsPlan/blob/main/faq.md
