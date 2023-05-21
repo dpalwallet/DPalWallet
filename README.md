@@ -49,7 +49,8 @@ E-mails: mailto:dpalwallet@outlook.com
 
 donate address : DEGzHPRaiFMhEip819w29iR6tTG8HajvAo
 
-telegram : https://t.me/dpalwallet
+telegram-cn : https://t.me/dpalwallet
+telegram-en : https://t.me/dpal_en
 
 bug temporary solution solution :
 https://github.com/dpalwallet/DoginalsPlan/blob/main/faq.md
