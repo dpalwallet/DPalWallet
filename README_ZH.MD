@@ -46,6 +46,7 @@ DPal 将私钥加密并本地保存，所以你的私钥属于你，不属于任
   助记词/密钥 在DPAL Wallet 中被严格加密，并存储在本地，Your keys your doge, 请注意设置高强度密码并在安全的地方备份助记词
    
 ## Contact Us
+twitter : https://twitter.com/mzydev
 
 E-mails: mailto:dpalwallet@outlook.com
 
