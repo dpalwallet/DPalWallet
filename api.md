@@ -11,7 +11,7 @@ const doge = window?.DogeApi;
 
 ```javascript
 const { status } = await doge.enable();
-if (result?.status === 'success') {
+if ( status === 'success') {
   const { userAddress } = await doge.userAddress();
   // const { network } = await doge.network();
 }
