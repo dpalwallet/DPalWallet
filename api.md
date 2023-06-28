@@ -17,9 +17,25 @@ if ( status === 'success') {
 }
 
 // or check isEnabled
-if (doge && (await doge.isEnabled())) {
+if (await doge.isEnabled()) {
   const { userAddress } = await doge.userAddress();
   // const { network } = await doge.network();
+}
+
+// full demo
+if(doge){
+  if (await doge.isEnabled()) {
+    const { userAddress } = await doge.userAddress();
+    // const { network } = await doge.network();
+  } else {
+    const { status } = await doge.enable();
+    if ( status === 'success') {
+      const { userAddress } = await doge.userAddress();
+      // const { network } = await doge.network();
+    }
+  }
+}else{
+  console.log(`please install dpal wallet`)
 }
 ```
 
