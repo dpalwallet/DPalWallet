@@ -41,7 +41,7 @@ recovery the wallet at any time.
  - Is my mnemonic/seed secured?
 
   Yes, Mnemonics/seeds are securely encrypted and stored locally, your keys your doge.
-## [API and demo](./api.md)
+## [API and demo](https://dpal-wallet.gitbook.io/dpal-doc/)
 ## Contact Us
 twitter : https://twitter.com/mzydev
 
