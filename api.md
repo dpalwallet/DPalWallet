@@ -54,9 +54,10 @@ if (await doge.isEnabled()) {
 }
 ```
 
-## request to sign message(^v1.0.19)
+## request to sign message
 
 ```javascript
+// use this method to login server can send token by decoded sig
 if (await doge.isEnabled()) {
   const rs = await doge.sign();
   if (rs?.message && rs.sig) {
@@ -66,7 +67,7 @@ if (await doge.isEnabled()) {
 }
 ```
 
-## transfer d20(^v1.0.19)
+## transfer d20(^v1.2.2)
 
 ```javascript
 if (await doge.isEnabled()) {
