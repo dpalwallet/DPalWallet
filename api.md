@@ -57,7 +57,8 @@ if (await doge.isEnabled()) {
 ## request to sign message
 
 ```javascript
-// use this method to login server can send token by decoded sig
+// use this method to login server,
+// send token to users by decoded sig
 if (await doge.isEnabled()) {
   const rs = await doge.sign();
   if (rs?.message && rs.sig) {
