@@ -66,6 +66,23 @@ if (await doge.isEnabled()) {
 }
 ```
 
+## transfer d20(^v1.0.19)
+
+```javascript
+if (await doge.isEnabled()) {
+  const inscriptionid = "inscriptionid"
+  const receiver = "receiver address"
+  const rs = await doge.transferd20(inscriptionid,receiver);
+  if (rs?.txid) {
+    // successed
+    // you can track the transaction is confirmed by txid in doge chain
+    // for example use chain.so or orther doge api serveices
+    // curl "https://chain.so/api/v3/transaction/DOGE/597bafa25fcbb081467bdeb030a42bf441dbfcc054bdcfad31a829d7db5d931f" -H "API-KEY: {{api_key}}"
+    // https://chain.so/api/ 
+  }
+}
+```
+
 ## timeout
 
 ```javascript
