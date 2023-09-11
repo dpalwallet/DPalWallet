@@ -18,7 +18,6 @@ recovery the wallet at any time.
 * Any website can intract with doge block chain easily and Directly widthout mid services throgh the injected API.
 * [API and demo](https://dpal-wallet.gitbook.io/dpal-doc/)
 
-## [Use dogecoin drive smart contract](./SmartContract_DOGE.MD)
 ## UI DEMO 
 ![Demo](https://github.com/dpalwallet/DPalWallet/blob/main/main_ui.gif)
 
